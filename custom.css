@@ -1,0 +1,81 @@
+.header {
+	font-size: 70px;
+}
+
+.green:hover {
+    color: #98c379;
+}
+
+.blue:hover {
+	color: #56b6c2;
+}
+
+.yellow:hover {
+    color: #c6ad00;
+}
+
+.purple:hover {
+	color: #b400b9;
+}
+
+.red:hover {
+	color: #c62d48;
+}
+
+input:not([type]):focus, input[type=date]:focus, input[type=email]:focus, input[type=number]:focus, input[type=password]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:not(.CodeMirror-search-field):focus, input[type=url]:focus, select:focus, textarea:focus {
+    border: 1px solid #07682c;
+    outline: 0;
+}
+
+input:not([type]), input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text]:not(.CodeMirror-search-field), input[type=url], select, textarea {
+    height: 38px;
+    padding: 6px 10px 6px 10px;
+    background-color: #fff;
+    border: 1px solid #d4dada;
+    border-radius: 3px;
+    box-shadow: none;
+    vertical-align: bottom;
+}
+
+input:not([type]):focus, input[type=date]:focus, input[type=email]:focus, input[type=number]:focus, input[type=password]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:not(.CodeMirror-search-field):focus, input[type=url]:focus, select:focus, textarea:focus {
+    border: 1px solid #07682c;
+    outline: 0;
+}
+
+input:not([type]), input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 634px;
+}
+
+.common-Button {
+    white-space: nowrap;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 14px;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    background: #fff;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    color: #7795F7;
+    text-decoration: none;
+    transition: all .15s ease;
+}
+
+.common-Button:hover {
+    color: #7795f8;
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+}
+
+.common-Button:active {
+    color: #555abf;
+    background-color: #f6f9fc;
+    transform: translateY(1px);
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}
